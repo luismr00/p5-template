@@ -59,7 +59,7 @@ Here are the requirements:
 
 ## Description
 
-The lens I created was a helmet from a video game character called Captain Falcon. Upon doing a salute gesture with the left arm one can trigger Falcon's famous taunt phrase called "Show me ya moves".
+A simple brush that shows a lightbulb image where you can move your cursor around it and see different words being drawn with movement. All this has been done with the help of a JavaScript library called p5.js.
 
 ## Screenshot
 
@@ -68,9 +68,20 @@ The lens I created was a helmet from a video game character called Captain Falco
 ## Instructions to run the lens on local server
 
 1. Open this repo with the terminal either through an IDE of choice or the system's terminal 
-2. Run the command: http-server
+2. Run the repo through a server. If you do not have a server command already installed globally, run the command: 
+
+```
+npm install --global http-server
+```
+
+Else, run the following the command if you already have a server installed or after running the command above sucessfully:
+
+```
+http-server
+```
+
 3. Go to the browser and navigate to: localhost:8080
-4. With the left hand, have your left hand show in front of the camera and you will hear a sound. Salute to make the lens effect look more dramatic. :)
+4. Move the cursor around and you will see different words being written into the interface. Refresh if you want to see a new set of words.
 
 ## Tools used
 

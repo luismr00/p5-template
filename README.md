@@ -64,6 +64,9 @@ A simple brush that shows a lightbulb image where you can move your cursor aroun
 ## Screenshot
 
 <!-- ![alt text](./assets/RM_Screenshot.png) -->
+<p align="center">
+  <img width="380" src="./light.gif">
+</p>
 
 ## Instructions to run the lens on local server
 

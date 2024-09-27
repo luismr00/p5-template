@@ -1,4 +1,4 @@
-# p5-template
+<!-- # p5-template
 
 Use this template for a brand new p5.js project. 
 
@@ -35,3 +35,57 @@ Check out Dan Schiffman's youtube tutorials [http://learningprocessing.com/video
 
 
 This is adapted from [Camille Utterback's class "Drawing with Code"](http://camilleutterback.com/).
+ -->
+ 
+ <!-- # Assignment 2: Make a reverse-engineered Snap Lens
+
+Here are the requirements: 
+
+1. VARIABLES: Activate at least one change in p5.js (display an image,run an animation,change the screen in some way, etc.) based on a poseNet keypoint position (this is an object with a x and y property).
+2. EVENTS: Activate at least one change in p5.js based on an event (if you raise your hand, or if you make a certain gesture, etc.). 
+
+## Here are the templates in this repo that you can use!
+
+1. ![Nose Brush using PoseNet](./script_nosebrush.js)
+2. ![Body Lens using PoseNet](./script_posenet.js)
+3. ![Face Lens using Face API](./script_faceapi.js)
+4. ![Face Lens using Face Mesh](./script_facemesh.js)
+
+## Here are templates and resources you can find elsewhere.
+1. ![Here are all of ml5 templates for p5!](https://editor.p5js.org/ml5/sketches)
+2. ![Here are some more templates from a Interactive and Computation class](http://cmuems.com/2018/60212f/deliverables/5-due-10-12/templates/) -->
+
+# P5.js Brush
+
+## Description
+
+A simple brush that shows a lightbulb image where you can move your cursor around it and see different words being drawn with movement. All this has been done with the help of a JavaScript library called p5.js.
+
+## Screenshot
+
+<!-- ![alt text](./assets/RM_Screenshot.png) -->
+<p align="center">
+  <img width="380" src="./light.gif">
+</p>
+
+## Instructions to run the lens on local server
+
+1. Open this repo with the terminal either through an IDE of choice or the system's terminal 
+2. Run the repo through a server. If you do not have a server command already installed globally, run the command: 
+
+```
+npm install --global http-server
+```
+
+Else, run the following the command if you already have a server installed or after running the command above sucessfully:
+
+```
+http-server
+```
+
+3. Go to the browser and navigate to: localhost:8080
+4. Move the cursor around and you will see different words being written into the interface. Refresh if you want to see a new set of words.
+
+## Tools used
+
+- p5.js
